@@ -1,0 +1,229 @@
+body {
+  font-family:'Josefin Sans', sans-serif;
+/*  color:white;*/
+}
+
+/*.row a {
+  text-decoration:none;
+  color:inherit;
+}*/
+
+/*#menu {
+  height:300px;
+  width:500px;
+  margin:auto;
+  position:absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+}*/
+
+/*#white, #photos, #blog, #about {
+  height: 48%;
+  width:48%;
+  float: left; 
+  opacity:0.1;
+  box-shadow: 3px 3px 0px #B8B8B8 ;
+  border:1px solid white;
+  color:transparent;
+}*/
+
+/*#white {
+  background-color:black; 
+  height: 200px;
+  width: 100%;
+  text-align:center;
+  color:transparent;
+  opacity:1.0;
+  margin:auto;
+}
+
+#white:hover {
+  background:url(../images/sky.jpg);
+  background-size: 100% 100%;
+  opacity:1.0;
+  transition: all 3s;
+  color:white;
+}
+
+#white p {
+  margin-top:26%;
+  margin-bottom:0;
+  font-size:20px;
+  padding-top:25%;
+}*/
+
+/*#photos {
+  margin-bottom:1%; 
+  background-color:red;
+}
+
+#photos p {
+  margin-top:26%;
+  font-size:20px;
+  text-align:center;
+}
+
+#photos:hover {
+  background:url(../images/gate.jpg);
+  background-size: cover;
+  opacity:1.0;
+  transition: all 3s;
+  color:white;
+}
+
+#blog {
+  margin-right:1%; 
+  background-color:yellow;
+}
+
+#blog p {
+  margin-top:26%;
+  font-size:20px;
+  text-align:center;
+}
+
+#blog:hover {
+box-shadow: 2px 2px 0px #404040;
+background:url(../images/bikes.jpg);
+  background-size: cover;
+  color:white;
+  opacity:1.0;
+  transition: all 3s;
+}
+
+#about { 
+  background-color:blue;
+}
+
+#about p {
+  margin-top:26%;
+  font-size:20px;
+  text-align:center;
+}
+
+#about:hover {
+box-shadow: 2px 2px 0px #404040;
+background:url(../images/mosque.jpg);
+  background-size: cover;
+  opacity:1.0;
+  transition: all 3s;
+  color:white;
+}
+
+@media all and (max-width:480px) {
+  body {
+    background:url(../images/serjilla.jpg);
+    background-size:cover
+  }
+  #menu {
+    height:600px;
+    width:250px;
+  }
+  #white, #photos, #blog, #about {
+    height: 24%;
+    width:99%;
+    margin-bottom:1%;
+  }
+}
+
+@media all and (min-width:1200px) {
+  #menu {
+    height:450px;
+    width:666px;
+  }
+  #white p, #photos p, #blog p, #about p {
+    margin-top:31%;
+    font-size:26px;
+  }
+}*/
+
+.photo {
+  background:url(../images/tree.jpg);
+  background-size: cover;
+  height:250px;
+  width:100%;
+  max-width:450px;
+  margin:0 auto;
+}
+
+.photo:hover {
+  background:url(../images/treebw.jpg);
+  background-size: cover;
+  height:250px;
+  width:100%;
+  max-width:450px;
+  margin:0 auto;
+  transition:all 3s;
+}
+
+.col-xs-12 {
+  height:30%;
+  margin-bottom: 5px
+}
+
+video { 
+  width:100%;
+}
+
+h1, h3{
+  text-align:center;
+}
+
+.col-sm-4 {
+  height:180px;
+}
+
+.col-sm-4 .title {
+  position: absolute;
+  z-index:100;
+  width:100%;
+  margin-top:18%;
+  font-size:40px;
+  text-align:center;
+}
+
+.col-sm-4 .content {
+  position: absolute;
+  display:none;
+}
+
+.col-sm-4:hover .title {
+  display:none;
+}
+
+.col-sm-4:hover .content {
+  display:initial;
+}
+
+@media all and (max-width:768px) {
+  .col-sm-4 {
+    height:initial;
+  }
+  .col-sm-4 .title {
+    position:relative;
+    z-index:1;
+    margin-top:5px;
+  }
+  .col-sm-4 .content {
+    position:relative;
+    display:initial;
+  }
+  .col-sm-4:hover .title {
+    display:block;
+  }
+}
+
+.navbar-default {
+  background-color:black;
+  border:none;
+}
+
+.navbar-default .navbar-toggle {
+border-color: white
+}
+
+.navbar-default {
+  color:white;
+}

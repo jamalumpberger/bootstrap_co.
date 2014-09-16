@@ -148,7 +148,7 @@ background:url(../images/mosque.jpg);
   margin:0 auto;
 }
 
-.photo:hover {
+/*.photo:hover {
   background:url(../images/treebw.jpg);
   background-size: cover;
   height:250px;
@@ -156,7 +156,7 @@ background:url(../images/mosque.jpg);
   max-width:450px;
   margin:0 auto;
   transition:all 3s;
-}
+}*/
 
 .col-xs-12 {
   height:30%;
@@ -226,4 +226,16 @@ border-color: white
 
 .navbar-default {
   color:white;
+}
+
+@media all and (min-width:769px) {
+  .photo:hover {
+  background:url(../images/treebw.jpg);
+  background-size: cover;
+  height:250px;
+  width:100%;
+  max-width:450px;
+  margin:0 auto;
+  transition:all 3s;
+}
 }
